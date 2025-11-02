@@ -1,0 +1,6 @@
+green_crystal
+green_alien
+stop_sign
+mushrooms
+formation
+white_sphere

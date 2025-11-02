@@ -1,0 +1,8 @@
+# Dataset configuration for YOLOv5
+path: /home/student/ros_ws/labeled_dataset  # dataset root dir
+train: train/images  # train images (relative to 'path')
+val: valid/images    # val images (relative to 'path')
+
+# Classes
+nc: 6  # number of classes
+names: ['green_crystal', 'green_alien', 'stop_sign', 'mushrooms', 'formation', 'white_sphere']
