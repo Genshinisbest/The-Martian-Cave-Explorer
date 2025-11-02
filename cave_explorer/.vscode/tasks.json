@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Cave Explorer",
+			"type": "shell",
+			"command": "cd /home/student/ros_ws && colcon build --packages-select cave_explorer",
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$gcc"
+			]
+		}
+	]
+}
