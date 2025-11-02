@@ -103,7 +103,7 @@ class CaveExplorer(Node):
         self.detected_artifacts_positions = []  # list of tuples (x,y,z,type,conf,hits)
         self.artifact_clustering_threshold = 0.6  # meters (tighter clustering)
         self.ema_alpha = 0.25
-        self.confirm_hits_required = 6
+        self.confirm_hits_required = 3
 
         self.artifact_type_colors = {
             'stop_sign': (1.0, 0.0, 0.0),
